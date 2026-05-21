@@ -5,7 +5,7 @@
 import axios from 'axios';
 import type { ShortenResponse, HistoryItem } from '../types';
 
-const BASE_URL = 'http://127.0.0.1:5000';
+const BASE_URL = 'https://codealpha-genurl.onrender.com';
 
 const api = axios.create({
   baseURL: BASE_URL,

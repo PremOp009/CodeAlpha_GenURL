@@ -30,7 +30,7 @@ This creates `icons/icon16.png`, `icons/icon48.png`, and `icons/icon128.png` usi
 
 ### Step 3 — Make sure the backend is running
 
-The extension connects to `http://localhost:5000`. Your backend should already be running:
+The extension connects to `https://codealpha-genurl.onrender.com`. Your backend should already be running:
 
 ```bash
 # In GenURL/backend/
@@ -81,4 +81,4 @@ If you edit any extension file, go to `chrome://extensions/` and click the **↺
 
 ## 🚀 Production note
 
-Currently configured for `http://localhost:5000`. To deploy publicly, change `API_BASE` in `popup.js` and `background.js` to your hosted backend URL, and update `host_permissions` in `manifest.json`.
+Currently configured for `https://codealpha-genurl.onrender.com`. To deploy publicly, change `API_BASE` in `popup.js` and `background.js` to your hosted backend URL, and update `host_permissions` in `manifest.json`.
