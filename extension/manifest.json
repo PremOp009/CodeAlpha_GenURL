@@ -12,7 +12,7 @@
     "scripting"
   ],
   "host_permissions": [
-    "http://localhost:5000/*"
+    "https://codealpha-genurl.onrender.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
