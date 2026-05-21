@@ -19,7 +19,7 @@ class URLMapping(db.Model):
     clicks     = db.Column(db.Integer, default=0)          # real click counter
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
-    def to_dict(self, base_url: str = "http://127.0.0.1:5000") -> dict:
+    def to_dict(self, base_url: str = "https://codealpha-genurl.onrender.com") -> dict:
         """Serialize the model to a dictionary."""
         return {
             "id":           self.id,
