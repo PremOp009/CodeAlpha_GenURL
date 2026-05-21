@@ -1,6 +1,6 @@
 /* ─── GenURL Chrome Extension — Popup Logic ─────────────────────────────── */
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://codealpha-genurl.onrender.com";
 const HISTORY_LIMIT = 5;
 
 // ── DOM Refs ──────────────────────────────────────────────────────────────────
