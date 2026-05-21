@@ -132,16 +132,17 @@ Done ✅
 - 🤖 AI-generated short aliases
 
 ---
+## 🎯 Internship Project
 
-## 🎯 Project Objective
-
-The objective of GenURL is to create a lightweight and modern URL shortening solution while exploring:
+This project was created during the **CodeAlpha Internship Program** to explore and improve skills in:
 
 - TypeScript development
 - Tailwind CSS UI design
 - Chrome Extension APIs
 - Cloud deployment workflows
 - Real-world project architecture
+
+---
 
 ---
 
