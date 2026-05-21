@@ -27,6 +27,9 @@ app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{os.path.join(BASE_DIR, 'url
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db.init_app(app)
+# Force create database tables on Render before the first request
+with app.app_context():
+    db.create_all()
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -55,8 +58,7 @@ def get_local_ip() -> str:
         return "127.0.0.1"
 
 
-LOCAL_IP = get_local_ip()
-BASE_URL = f"http://{LOCAL_IP}:5000"
+BASE_URL = "https://codealpha-genurl.onrender.com"
 
 
 def is_valid_url(url: str) -> bool:
